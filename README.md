@@ -1,2 +1,2 @@
-# api-scan
-Scanner
+# AI Scanner
+Scan site for better SEO, accessibility, missing pages, dead links and more...
