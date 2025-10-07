@@ -3,7 +3,7 @@ FROM node:18-alpine AS build
 WORKDIR /app
 
 # Install dependencies
-COPY package-lock.json ./
+COPY package*.json ./
 RUN npm ci --production=false
 
 # Copy sources and build
